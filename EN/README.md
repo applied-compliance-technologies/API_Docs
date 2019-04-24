@@ -2,8 +2,8 @@
 
 # Spot
 ## REST maket、Trading API<br>
- [Spot interface illustration(simulation environment)](https://documenter.getpostman.com/view/7314949/S1EUubXr)<br>
- [Spot interface illustration(product environment)](https://documenter.getpostman.com/view/7314949/S1EUubcK)
+ [Example: Spot API(simulation environment)](https://documenter.getpostman.com/view/7314949/S1EUubXr)<br>
+ [Example: Spot API(product environment)](https://documenter.getpostman.com/view/7314949/S1EUubcK)
 
 ## WebSocket market, Trading API<br>
 |**Interface Type**|   **Data Type**   |**Request method** |**Type**   |**Description**                     |**verification **        |                                                                                                                                            
