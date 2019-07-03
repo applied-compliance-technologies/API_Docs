@@ -17,6 +17,9 @@
 |Websocket   |市场行情接口|market.$symbol.trade.detail| req|请求 Trade detail 数据       |否|
 |Websocket   |市场行情接口|market.$symbol.trade.detail| sub|订阅 Trade Detail 数据       |否|
 
+## C++ API
+|**业务类型**|   **业务名称**   |**请求接口** |**响应接口**   |**数据流**   |
+|---------|---------------|---------------------------------|---------------------------------|-----------|
 
 
 ## 订阅 KLine 数据 market.$symbol.kline.$period
@@ -523,6 +526,11 @@ data 说明：
  |Websocket   |市场行情接口           |market.$symbol.detail|                                                                                                                     sub        |订阅 Market detail 数据       |否|
   |Websocket   |市场行情接口           |market.$symbol.trade.detail |                                                                                                                     req        |请求 Trade detail 数据       |否|
   |Websocket   |市场行情接口           |market.$symbol.trade.detail|        sub |订阅 Trade Detail 数据  | 否  |
+
+## C++ API
+|**业务类型**|   **业务名称**   |**请求接口** |**响应接口**   |**数据流**   |
+|---------|---------------|---------------------------------|---------------------------------|-----------|
+
 
 #### 订阅 KLine 数据
 
