@@ -20,7 +20,29 @@
 ## C++ API
 |**业务类型**|   **业务名称**   |**请求接口** |**响应接口**   |**数据流**   |
 |---------|---------------|---------------------------------|---------------------------------|-----------|
-
+|登录|登录|ReqUserLogin|OnRspUserLogin|对话流|
+|登录|登出|ReqUserLogout|OnRspUserLogout|对话流|
+|交易|报单录入|ReqOrderInsert|OnRspOrderInsert|对话流|
+|交易|报单操作|ReqOrderAction|OnRspOrderAction|对话流|
+|私有回报|成交回报|N/A|OnRtnTrade|私有流|
+|私有回报|报单回报|N/A|OnRtnOrder|私有流|
+|私有回报|会员资金通知|N/A|OnRtnTradingAccount|私有流|
+|私有回报|报单录入错误回报|N/A|OnErrRtnOrderInsert|私有流|
+|私有回报|报单操作错误回报|N/A|OnErrRtnOrderAction|私有流|
+|公共通知|合约交易状态通知|N/A|OnRtnInstrumentStatus|公共流|
+|公共通知|增加合约通知|N/A|OnRtnInsInstrument|公共流|
+|公共通知|删除合约通知|N/A|OnRtnDelInstrument|公共流|
+|查询|会员资金查询请求|ReqQryTradingAccount|OnRspQryTradingAccount|查询流|
+|查询|报单查询请求|ReqQryOrder|OnRspQryOrder|查询流|
+|查询|成交单查询请求|ReqQryTrade|OnRspQryTrade|查询流|
+|查询|会员客户查询请求|ReqQryClient|OnRspQryClient|查询流|
+|查询|合约查询请求|ReqQryInstrument|OnRspQryInstrument|查询流|
+|查询|合约交易状态查询请求|ReqQryInstrumentStatus|OnRspQryInstrumentStatus|查询流|
+|查询|普通行情查询请求|ReqQryMarketData|OnRspQryMarketData|查询流|
+|查询|客户手续费查询|ReqQryPartClientFee|OnRspQryPartClientFee|查询流|
+|行情|主题查询|ReqQryTopic|OnRspQryTopic|查询流|
+|行情|订阅主题|ReqSubscribeTopic|OnRspSubscribeTopic|对话流|
+|行情|深度行情通知|N/A|OnRtnDepthMarketData|私有流|
 
 ## 订阅 KLine 数据 market.$symbol.kline.$period
 
@@ -530,7 +552,31 @@ data 说明：
 ## C++ API
 |**业务类型**|   **业务名称**   |**请求接口** |**响应接口**   |**数据流**   |
 |---------|---------------|---------------------------------|---------------------------------|-----------|
-
+|登录|登录|ReqUserLogin|OnRspUserLogin|对话流|
+|登录|登出|ReqUserLogout|OnRspUserLogout|对话流|
+|交易|报单录入|ReqOrderInsert|OnRspOrderInsert|对话流|
+|交易|报单操作|ReqOrderAction|OnRspOrderAction|对话流|
+|私有回报|成交回报|N/A|OnRtnTrade|私有流|
+|私有回报|报单回报|N/A|OnRtnOrder|私有流|
+|私有回报|会员资金通知|N/A|OnRtnTradingAccount|私有流|
+|私有回报|客户持仓通知|N/A|OnRtnClientPosition|私有流|
+|私有回报|报单录入错误回报|N/A|OnErrRtnOrderInsert|私有流|
+|私有回报|报单操作错误回报|N/A|OnErrRtnOrderAction|私有流|
+|公共通知|合约交易状态通知|N/A|OnRtnInstrumentStatus|公共流|
+|公共通知|增加合约通知|N/A|OnRtnInsInstrument|公共流|
+|公共通知|删除合约通知|N/A|OnRtnDelInstrument|公共流|
+|查询|会员资金查询|ReqQryTradingAccount|OnRspQryTradingAccount|查询流|
+|查询|报单查询|ReqQryOrder|OnRspQryOrder|查询流|
+|查询|成交单查询|ReqQryTrade|OnRspQryTrade|查询流|
+|查询|会员客户查询|ReqQryClient|OnRspQryClient|查询流|
+|查询|客户持仓查询|ReqQryClientPosition|OnRspQryClientPosition|查询流|
+|查询|合约查询|ReqQryInstrument|OnRspQryInstrument|查询流|
+|查询|合约交易状态查询|ReqQryInstrumentStatus|OnRspQryInstrumentStatus|查询流|
+|查询|普通行情查询|ReqQryMarketData|OnRspQryMarketData|查询流|
+|查询|客户手续费查询|ReqQryPartClientFee|OnRspQryPartClientFee|查询流|
+|行情|主题查询|ReqQryTopic|OnRspQryTopic|查询流|
+|行情|订阅主题|ReqSubscribeTopic|OnRspSubscribeTopic|对话流|
+|行情|深度行情通知|N/A|OnRtnDepthMarketData|私有流|
 
 #### 订阅 KLine 数据
 
