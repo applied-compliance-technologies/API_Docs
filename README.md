@@ -13,7 +13,7 @@
 |Websocket   |市场行情接口|market.$symbol.depth.$type | sub|订阅 Market Depth 数据       |否|
 |Websocket   |市场行情接口|market.$symbol.depth.$type | req|请求 Market Depth 数据       |否|
 |Websocket   |市场行情接口|market.$symbol.detail|       sub|订阅 Market detail 数据      |否|
-|Websocket   |市场行情接口|market.$symbol.detail|       sub|请求 Market detail 数据      |否|
+|Websocket   |市场行情接口|market.$symbol.detail|       req|请求 Market detail 数据      |否|
 |Websocket   |市场行情接口|market.$symbol.trade.detail| req|请求 Trade detail 数据       |否|
 |Websocket   |市场行情接口|market.$symbol.trade.detail| sub|订阅 Trade Detail 数据       |否|
 
