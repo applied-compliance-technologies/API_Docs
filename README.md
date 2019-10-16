@@ -1,8 +1,13 @@
 # API_Docs
 
+欢迎有优秀做市策略且交易量大的用户参与做市商项目，如果您有疑问请发送邮件至：support@ontrade.com。
+
+目前关于apikey申请和修改，请在“API设置”页面进行相关操作。<br>
+[签名认证(重要，请仔细阅读)](https://github.com/ontrade-research/API_Docs/wiki/REST_authentication)
+
 # 现货
 ## REST行情、交易API<br>
- [现货接口示例](https://documenter.getpostman.com/view/7314949/S1EUubcH)
+[现货REST接口示例](https://documenter.getpostman.com/view/7314949/S1EUubcH)
 
 ## WebSocket 行情,交易 API<br>
 |**接口类型**|   **接口数据类型**   |**请求方法** |**类型**   |**描述**                     |**需要验签**        |                                                                                                                                            
@@ -536,7 +541,7 @@ data 说明：
 
 # 合约
 ## REST 行情、交易 API<br>
-[合约接口示例](https://documenter.getpostman.com/view/7314949/S1ETSccs)
+[合约REST接口示例](https://documenter.getpostman.com/view/7314949/S1ETSccs)
 ## WebSocket 行情,交易 API<br>
 |**接口类型**|   **接口数据类型**   |**请求方法** |**类型**   |**描述**                     |**需要验签**        |                                                                                                                                            
   |----------- |------------------ |------------------------------------------------------------------------------------------------------------------------------------------------------------------- |---------- |---------------------------- |--------------|
