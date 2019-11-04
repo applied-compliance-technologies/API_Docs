@@ -2,8 +2,7 @@
 
 # Spot
 ## REST maket、Trading API<br>
- [Example: Spot API(simulation environment)](https://documenter.getpostman.com/view/7314949/S1EUubXr)<br>
- [Example: Spot API(product environment)](https://documenter.getpostman.com/view/7314949/S1EUubcK)
+ [Example: Spot API](https://documenter.getpostman.com/view/9332748/SW131HmY)
 
 ## WebSocket market, Trading API<br>
 |**Interface Type**|   **Data Type**   |**Request method** |**Type**   |**Description**                     |**verification **        |                                                                                                                                            
@@ -511,8 +510,7 @@ Example: return to data:
 
 # Contract 
 ## REST Market, Trading API<br>
-[Example: Contract API(simulation environment)](https://documenter.getpostman.com/view/7314949/S1EUubcG)<br>
-[Example: Contract API(product environment)](https://documenter.getpostman.com/view/7314949/S1EUubXn)
+[Example: Contract API](https://documenter.getpostman.com/view/9331626/SW131HmX)
 ## WebSocket Market, Trading API<br>
 |**Interface Type**|   **Data Type**   |**Request method** |**Type**   |**Description**                     |**verification**        |                                                                                                                                            
   |----------- |------------------ |------------------------------------------------------------------------------------------------------------------------------------------------------------------- |---------- |---------------------------- |--------------|
