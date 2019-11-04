@@ -7,7 +7,7 @@
 
 # 现货
 ## REST 行情、交易 API<br>
-[现货REST接口示例](https://documenter.getpostman.com/view/7314949/S1EUubcH)
+[现货REST接口示例](https://documenter.getpostman.com/view/9331589/SW131HmW)
 
 ## WebSocket 行情 API<br>
 |**接口类型**|   **接口数据类型**   |**请求方法** |**类型**   |**描述**                     |**需要验签**        |                                                                                                                                            
@@ -541,7 +541,7 @@ data 说明：
 
 # 合约
 ## REST 行情、交易 API<br>
-[合约REST接口示例](https://documenter.getpostman.com/view/7314949/S1ETSccs)
+[合约REST接口示例](https://documenter.getpostman.com/view/8535192/SW12zdLV)
 
 ## WebSocket 行情 API<br>
 |**接口类型**|   **接口数据类型**   |**请求方法** |**类型**   |**描述**                     |**需要验签**        |                                                                                                                                            
